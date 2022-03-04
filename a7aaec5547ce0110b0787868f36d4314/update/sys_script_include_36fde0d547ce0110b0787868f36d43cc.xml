@@ -2,29 +2,29 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
-        <api_name>x_640481_cicd_demo.CICD_Demo</api_name>
+        <api_name>x_640481_cicd_demo.CICX_Demo</api_name>
         <caller_access/>
         <client_callable>false</client_callable>
         <description/>
-        <name>CICD_Demo</name>
-        <script><![CDATA[var CICD_Demo = Class.create();
-CICD_Demo.prototype = {
-    initialize: function() {
-    },
-//feature1
-    type: 'CICD_Demo'
+        <name>CICX_Demo</name>
+        <script><![CDATA[var CICX_Demo = Class.create();
+CICX_Demo.prototype = {
+    initialize: function() {},
+    //feature1
+    //feature2
+    type: 'CICX_Demo'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-03-04 06:22:21</sys_created_on>
         <sys_id>36fde0d547ce0110b0787868f36d43cc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>CICD_Demo</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>CICX_Demo</sys_name>
         <sys_package display_value="CICD Demo" source="x_640481_cicd_demo">a7aaec5547ce0110b0787868f36d4314</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="CICD Demo">a7aaec5547ce0110b0787868f36d4314</sys_scope>
         <sys_update_name>sys_script_include_36fde0d547ce0110b0787868f36d43cc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-03-04 06:22:21</sys_updated_on>
+        <sys_updated_on>2022-03-04 06:26:53</sys_updated_on>
     </sys_script_include>
 </record_update>
